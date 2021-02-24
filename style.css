@@ -1,13 +1,59 @@
+.subtitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.nameTitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0rem;
+    font-size: 55px;
+    color: #272727;
+}
+
+.mail{
+    margin-top: -2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-weight: lighter;
+}
+
 .text{
+    text-align: center;
+    text-justify: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #868686;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #272727;
+    font-size: 20px;
+}
+
+.textCard{
     text-align: justify;
     text-justify: inter-word;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #868686;
+    font-size: 18px;
+    max-width: 18.5rem;
+    line-height: 1.3;
 }
 
 .photo{
+    margin-top: 5rem;
     border-radius: 100%;
-    width: 150px;
-    height: 150px;
+    width: 15rem;
+    height: 15rem;
     object-fit: cover
+}
+
+.proyectPhoto{
+     width: 20rem;
 }
 
 #photoDiv{
@@ -17,21 +63,26 @@
     align-items: center;   
 }
 
-#proyectContainer{
+#app{
     display: flex;
     flex-direction: row;
-    
-    align-items: center;   
+    justify-content: space-around;
 }
 
-.subtitle{
-    color: gainsboro;
+#proyectContainer{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
 }
 
-.mail{
-    color: gainsboro;
+#card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.text{
-    color: gray;
+#container{
+    padding: 2px 2px 2px 10px;
 }
